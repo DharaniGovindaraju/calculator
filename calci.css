@@ -1,0 +1,16 @@
+.cal{text-align: center;
+	 width:25%;
+	 margin: 0 auto;
+	 border: 2px solid white;
+	 background-color: skyblue;}
+.h1{text-align: center;}
+.texts{padding: 8px;
+	   height: 40px;
+		margin-bottom: 2px;
+		text-align: right;}
+.buttons{height: 40px;
+ 	    font-size: 20px;
+    	margin-bottom: 2px;
+    	width: 60px;
+    	padding: 5px;
+    	background-color: #dedede;}
