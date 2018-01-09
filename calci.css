@@ -3,6 +3,9 @@
 	 margin: 0 auto;
 	 border: 2px solid white;
 	 background-color: skyblue;}
+	 @media screen and (max-width: 767px) {
+	 	.cal{width:30%;}
+	 }
 .h1{text-align: center;}
 .texts{padding: 8px;
 	   height: 40px;
@@ -14,3 +17,17 @@
     	width: 60px;
     	padding: 5px;
     	background-color: #dedede;}
+         
+      @media screen and (min-width: 320px) and (max-width: 425px){
+        .cal{width:95%;}
+
+        
+    }
+
+@media screen and (min-width: 767px) and (max-width: 991px){
+        .cal{width:44%;}
+        
+        .button_black,.button_grey,.button_red{
+            width: 80px;}
+        .texts{width:56%;}
+    }
